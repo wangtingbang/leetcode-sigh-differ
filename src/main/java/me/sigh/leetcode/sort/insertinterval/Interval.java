@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//TODO
 public class Interval {
 
     public int start;
@@ -34,11 +35,10 @@ public class Interval {
         int start = 0;
         int end = 0;
 
-        Interval virtual = null;
         for (int i = 0; i < size && end != 0; i++) {
             Interval node = input.get(i);
 
-            if(node.start >newInterval.start){
+            if (node.start > newInterval.start) {
 
             }
         }
